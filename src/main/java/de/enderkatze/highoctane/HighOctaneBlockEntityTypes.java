@@ -2,9 +2,14 @@ package de.enderkatze.highoctane;
 
 import com.simibubi.create.content.kinetics.base.ShaftVisual;
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.tterrag.registrate.Registrate;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
+import de.enderkatze.highoctane.content.transmission.TransmissionBlock;
+import de.enderkatze.highoctane.content.transmission.TransmissionBlockEntity;
+import de.enderkatze.highoctane.content.transmission.TransmissionRenderer;
 import de.enderkatze.highoctane.content.vsix_engine.CarEngineBlockEntity;
 import de.enderkatze.highoctane.content.vsix_engine.CarEngineRenderer;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 
 public class HighOctaneBlockEntityTypes {
 
@@ -14,6 +19,12 @@ public class HighOctaneBlockEntityTypes {
             .visual(() -> ShaftVisual::new)
             .validBlock(HighOctaneBlocks.CAR_ENGINE_BLOCK)
             .renderer(() -> CarEngineRenderer::new)
+            .register();
+
+    public static final BlockEntityEntry<TransmissionBlockEntity> TRANSMISSION = REGISTRATE.blockEntity("transmission", TransmissionBlockEntity::new)
+            .visual(() -> ShaftVisual::new)
+            .validBlock(HighOctaneBlocks.TRANSMISSION_BLOCK)
+            .renderer(() -> TransmissionRenderer::new)
             .register();
 
     public static void register() {
