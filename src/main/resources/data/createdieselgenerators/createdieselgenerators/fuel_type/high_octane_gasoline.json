@@ -1,0 +1,21 @@
+{
+  "fluid": ["high_octane:high_octane_gasoline"],
+  "normal": {
+    "speed": 120.0,
+    "strength": 27512.0,
+    "burn_rate": 0.5
+  },
+  "modular": {
+    "speed": 120,
+    "strength": 32768,
+    "burn_rate": 0.5
+  },
+  "huge": {
+    "speed": 255,
+    "strength": 65536,
+    "burn_rate": 1
+  },
+  "sound_pitch": 1.5,
+
+  "burner_multiplier": 1.4
+}

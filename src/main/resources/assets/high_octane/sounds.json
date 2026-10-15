@@ -1,0 +1,91 @@
+{
+  "i6_idle": {
+    "subtitle": "sounds.high_octane.i6.idle",
+    "sounds":[
+    {
+      "name": "high_octane:i6/idle",
+      "type": "file",
+      "stream": true,
+      "attenuation_distance": 16
+    }]
+  },
+  "i6_startup": {
+    "subtitle": "sounds.high_octane.i6.startup",
+    "sounds":[
+      {
+        "name": "high_octane:i6/startup",
+        "type": "file",
+        "attenuation_distance": 16
+      }]
+  },
+  "i6_low_off": {
+    "subtitle": "sounds.high_octane.i6.low_off",
+    "sounds": [
+    {
+      "name": "high_octane:i6/low_off",
+      "type": "file",
+      "stream": true,
+      "attenuation_distance": 16
+    }]
+  },
+  "i6_low_on": {
+    "subtitle": "sounds.high_octane.i6.low_on",
+    "sounds":[
+    {
+      "name": "high_octane:i6/low_on",
+      "type": "file",
+      "stream": true,
+      "attenuation_distance": 16
+    }]
+  },
+  "i6_med_off": {
+    "subtitle": "sounds.high_octane.i6.med_off",
+    "sounds":[
+      {
+        "name": "high_octane:i6/med_off",
+        "type": "file",
+        "stream": true,
+        "attenuation_distance": 16
+      }]
+  },
+  "i6_med_on": {
+    "subtitle": "sounds.high_octane.i6.med_on",
+    "sounds":[
+      {
+        "name": "high_octane:i6/med_on",
+        "type": "file",
+        "stream": true,
+        "attenuation_distance": 16
+      }]
+  },
+  "i6_high_off": {
+    "subtitle": "sounds.high_octane.i6.high_off",
+    "sounds":[
+      {
+        "name": "high_octane:i6/high_off",
+        "type": "file",
+        "stream": true,
+        "attenuation_distance": 16
+      }]
+  },
+  "i6_high_on": {
+    "subtitle": "sounds.high_octane.i6.high_on",
+    "sounds":[
+      {
+        "name": "high_octane:i6/high_on",
+        "type": "file",
+        "stream": true,
+        "attenuation_distance": 16
+      }]
+  },
+  "i6_max": {
+    "subtitle": "sounds.high_octane.i6.max",
+    "sounds":[
+      {
+        "name": "high_octane:i6/max",
+        "type": "file",
+        "stream": true,
+        "attenuation_distance": 16
+      }]
+  }
+}
