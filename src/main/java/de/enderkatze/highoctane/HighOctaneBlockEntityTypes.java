@@ -24,7 +24,6 @@ public class HighOctaneBlockEntityTypes {
     public static final BlockEntityEntry<TransmissionBlockEntity> TRANSMISSION = REGISTRATE.blockEntity("transmission", TransmissionBlockEntity::new)
             .visual(() -> ShaftVisual::new)
             .validBlock(HighOctaneBlocks.TRANSMISSION_BLOCK)
-            .renderer(() -> TransmissionRenderer::new)
             .register();
 
     public static void register() {
