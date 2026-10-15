@@ -1,4 +1,4 @@
-package de.enderkatze.highoctane.content.car_engine;
+package de.enderkatze.highoctane.content.vsix_engine;
 
 import com.simibubi.create.content.kinetics.base.GeneratingKineticBlockEntity;
 import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;

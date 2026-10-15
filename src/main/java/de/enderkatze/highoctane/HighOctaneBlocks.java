@@ -1,12 +1,9 @@
 package de.enderkatze.highoctane;
 
-import com.simibubi.create.foundation.data.AssetLookup;
-import com.simibubi.create.foundation.data.BlockStateGen;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
-import de.enderkatze.highoctane.content.car_engine.CarEngineBlock;
+import de.enderkatze.highoctane.content.vsix_engine.CarEngineBlock;
 import net.minecraft.core.Direction;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 

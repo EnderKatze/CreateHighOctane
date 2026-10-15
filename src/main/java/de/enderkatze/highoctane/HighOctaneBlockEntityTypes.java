@@ -3,8 +3,8 @@ package de.enderkatze.highoctane;
 import com.simibubi.create.content.kinetics.base.ShaftVisual;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
-import de.enderkatze.highoctane.content.car_engine.CarEngineBlockEntity;
-import de.enderkatze.highoctane.content.car_engine.CarEngineRenderer;
+import de.enderkatze.highoctane.content.vsix_engine.CarEngineBlockEntity;
+import de.enderkatze.highoctane.content.vsix_engine.CarEngineRenderer;
 
 public class HighOctaneBlockEntityTypes {
 

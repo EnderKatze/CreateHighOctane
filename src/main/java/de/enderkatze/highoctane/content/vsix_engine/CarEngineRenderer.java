@@ -1,4 +1,4 @@
-package de.enderkatze.highoctane.content.car_engine;
+package de.enderkatze.highoctane.content.vsix_engine;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntityRenderer;
@@ -11,8 +11,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 
 import java.util.*;
-
-import static net.minecraft.world.level.block.state.properties.BlockStateProperties.HORIZONTAL_FACING;
 
 public class CarEngineRenderer extends ShaftRenderer<CarEngineBlockEntity> {
     public CarEngineRenderer(BlockEntityRendererProvider.Context context) {
