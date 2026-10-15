@@ -73,13 +73,9 @@ public class CarEngineBlock extends HorizontalKineticBlock implements IBE<CarEng
         if (be == null)
             return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
         IFluidHandler tank = level.getCapability(
-
                 Capabilities.FluidHandler.BLOCK,
-
                 pos,
-
                 null
-
         );
 
         if (tank == null)
