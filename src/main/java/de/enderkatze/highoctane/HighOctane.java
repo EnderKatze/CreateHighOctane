@@ -36,6 +36,7 @@ public class HighOctane {
         REGISTRATE.registerEventListeners(modEventBus);
         HighOctaneSounds.SOUND_EVENTS.register(modEventBus);
         HighOctaneBlocks.register();
+        HighOctaneItems.register();
         HighOctaneBlockEntityTypes.register();
         HighOctaneFluids.register();
 
