@@ -22,7 +22,7 @@ public class HighOctaneBlocks {
                                     .forAllStates(bs ->
                                             ConfiguredModel.builder()
                                                     .modelFile(p.models().getExistingFile(
-                                                            p.modLoc("block/v6_engine/v6_engine")
+                                                            p.modLoc("block/v6_engine/block")
                                                     ))
                                                     .rotationY(
                                                             bs.getValue(CarEngineBlock.HORIZONTAL_FACING).getAxis() == Direction.Axis.X
