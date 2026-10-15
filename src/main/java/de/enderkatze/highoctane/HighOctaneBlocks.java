@@ -47,11 +47,14 @@ public class HighOctaneBlocks {
                                                     .modelFile(p.models().getExistingFile(
                                                             p.modLoc("block/transmission/block")
                                                     ))
-                                                    .rotationY(
-                                                            bs.getValue(CarEngineBlock.HORIZONTAL_FACING).getAxis() == Direction.Axis.X
-                                                                    ? 90
-                                                                    : 0
-                                                    )
+                                                    .rotationY(switch (bs.getValue(CarEngineBlock.HORIZONTAL_FACING)) {
+                                                        case NORTH -> 180;
+                                                        case SOUTH -> 0;
+                                                        case EAST -> 90;
+                                                        case WEST -> 270;
+                                                        default -> 0;
+
+                                                    })
                                                     .build()
                                     )
                     )
