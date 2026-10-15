@@ -64,6 +64,9 @@ public class EngineSoundLayer {
         loopOff = new LoopingSoundInstance(pos, off, level);
         loopOn = new LoopingSoundInstance(pos, on, level);
 
+        // FIXME: This seems to crash the game sometimes?
+        // FIXME: Some sounds don't get initialised, might be same problem as above
+
         Minecraft.getInstance().execute(() -> {
             Minecraft.getInstance().getSoundManager().play(loopOff);
             Minecraft.getInstance().getSoundManager().play(loopOn);

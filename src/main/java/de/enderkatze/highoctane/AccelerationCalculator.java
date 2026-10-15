@@ -2,6 +2,9 @@ package de.enderkatze.highoctane;
 
 public class AccelerationCalculator {
 
+    // TODO: Rework acceleration calculation to feel more realistic
+    // TODO: Separate inertia and engine braking to their own methods for readability
+
     public static float calculateSpeedChange(
             float currentRPM,
             float idleRPM,

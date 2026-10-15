@@ -32,6 +32,9 @@ import net.neoforged.neoforge.fluids.capability.IFluidHandler;
 import javax.annotation.Nullable;
 
 public class CarEngineBlock extends HorizontalKineticBlock implements IBE<CarEngineBlockEntity> {
+
+    // TODO: Extract common logic to abstract base class for implementing future engines quicker
+
     public CarEngineBlock(Properties properties) {
         super(properties);
     }

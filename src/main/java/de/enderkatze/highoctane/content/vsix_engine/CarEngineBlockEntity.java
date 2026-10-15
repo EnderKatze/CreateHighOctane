@@ -35,6 +35,8 @@ import static net.minecraft.world.level.block.state.properties.BlockStatePropert
 
 public class CarEngineBlockEntity extends GeneratingKineticBlockEntity implements MenuProvider {
 
+    // TODO: Extract common logic to abstract base class for implementing future engines quicker
+
     SmartFluidTankBehaviour tank;
     private int throttleSignal = 0;
     private boolean throttleChanged = false;
