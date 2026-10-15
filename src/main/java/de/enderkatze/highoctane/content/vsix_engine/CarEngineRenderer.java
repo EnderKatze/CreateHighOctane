@@ -64,6 +64,7 @@ public class CarEngineRenderer extends ShaftRenderer<CarEngineBlockEntity> {
             CachedBuffers.partial(bays.get(i), be.getBlockState())
                     .center()
                     .scale(1+swell)
+                    .rotateYDegrees(be.getBlockState().getValue(BlockStateProperties.HORIZONTAL_FACING).toYRot())
                     .uncenter()
                     .light(light)
                     .renderInto(ms, buffer.getBuffer(RenderType.solid()));
@@ -76,6 +77,7 @@ public class CarEngineRenderer extends ShaftRenderer<CarEngineBlockEntity> {
             CachedBuffers.partial(cylinders.get(i), be.getBlockState())
                     .center()
                     .scale(1+(swellOffset/3)+swell)
+                    .rotateYDegrees(be.getBlockState().getValue(BlockStateProperties.HORIZONTAL_FACING).toYRot())
                     .uncenter()
                     .light(light)
                     .renderInto(ms, buffer.getBuffer(RenderType.solid()));
